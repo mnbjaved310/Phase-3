@@ -7,7 +7,7 @@ StdID | Name
  creating a parser using YACC
 
 ##Sample Language Used ##
-Using YACC and Lex Language tools to accomplish this 
+Using YACC and Lex Language tools to accomplish this ##
 Packages flex and bison
 
 ```
