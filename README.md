@@ -10,7 +10,18 @@ StdID | Name
 Using YACC and Lex Language tools to accomplish this ##
 Packages flex and bison
 
+``` ##linux terminal command##
+sudo apt-get install flex
+sudo apt-get install flex-old
+sudo apt-get install bison
+cd desktop
+yacc -d parser.y
+lex Flex.l
+cc lex.yy.c y.tab.c -o output
+./output < sample
+
 ```
+
 ###Lexical Specification###
 The lex file has 3 main parts, separated by “double percentage signs”. The first part is a list of harder files and function definitions encapsulated in “percentage-curly braces”. The second part has the list of acceptable tokens and the final is for some C user defined functions.
 
